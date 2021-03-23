@@ -3,79 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>LIKE</title>
-    <style>
-    body{
-      margin: 10px;
-    }
-    a{
-      color: pink;
-      text-decoration: none;
-    }
-    ol{
-      border-right: 1px solid gray;
-      line-height: 300%;
-    }
-    #re{color: gray;}
-    #re
-          :hover{color: pink;}
-          :active{color: pink;}
-    .menu{
-      display: grid;
-      grid-template-columns: 250px 1fr;
-    }
-    .menu ol{
-      font-family: bold, Consolas;
-      font-size: 25px;
-      margin: 0px;
-      padding: 30px;
-      color : pink;
-      list-style: none;
-    }
-    .menu:link{color: pink;}
-          :visited{color: pink;}
-          :hover{color: gray;}
-          :active{color: pink;}
-    .text2{
-      color: pink;
-      font-family: Consolas;
-      font-size: 20px;
-      padding-left: 10px;
-      list-style: none;
-      display: grid;
-      text-align: center;
-      line-height: 50px;
-    }
-    h1{
-       border : 2px solid gray;
-       color : gray;
-       text-align: center;
-      }
-    img{
-      display: block; margin: 0px auto;
-      margin-bottom: 20px;
-      margin-top: 10px;
-      }
-      p{
-        padding: 10px;
-      }
-      @media (max-width:800px){
-        .menu{
-          display: block;
-        }
-        ol{
-          text-align: center;
-          line-height: 30px;
-          border-right: none;
-        }
-        h1{
-          border: none;
-        }
-      }
-    </style>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <h1>I LIKE</h1>
-    <div class="menu">
+    <div id="menu">
       <ol>
         <li><a href="kimeunjin.html">KimEunJin</a></li>
         <li><a href="like.html">Like</a></li>
@@ -83,11 +15,11 @@
         <li><a href="hobby.html">Hobby</a></li>
         <li><a href="blah.html">Blah,Blah</a></li>
       </ol>
-    <div class="text2">
+    <div id="text2">
       <img src="bori.jpg" width="20%">
-      <p><a href="https://www.instagram.com/bori_0123/?hl=ko" target="_blank">@BORI_0123</a></p>
-      <p>🌶매운 음식🌶</p>
-      <p><a href="https://www.op.gg/summoner/userName=%EC%9D%BC%EC%82%B0+%EA%B9%80%EB%8F%84%ED%8C%94+" target="_blank">League of Legends</a></p>
+      <div id=pad><a href="https://www.instagram.com/bori_0123/?hl=ko" target="_blank">@BORI_0123</a></div>
+      🌶매운 음식🌶<br>
+      <div id=pad><a href="https://www.op.gg/summoner/userName=%EC%9D%BC%EC%82%B0+%EA%B9%80%EB%8F%84%ED%8C%94+" target="_blank">League of Legends</a></div>
     </div>
   </div>
   <div id="re"><a href="index.html">Return</a></div>
