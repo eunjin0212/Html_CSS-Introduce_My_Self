@@ -33,11 +33,16 @@ ol {
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 5fr;
+}
+
+.menu {
+  border-right: 1px solid gray;
+  height: 100%;
+
 }
 
 .menu ol {
-  border-right: 1px solid gray;
   font-size: 35px;
   margin: 0px;
   padding: 30px;
@@ -54,11 +59,14 @@ ol {
 
 #wrapper {
   color: pink;
+  width: 100%;
+  height: 100vh;
   font-size: 25px;
-  padding-left: 10px;
   list-style: none;
   line-height: 60px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 a:hover {
@@ -73,7 +81,6 @@ h1 {
 }
 
 img {
-  display: block;
   margin: 0px auto;
   margin-bottom: 20px;
   margin-top: 10px;
@@ -93,6 +100,7 @@ img {
 
   .menu {
     width: 80%;
+    border-right: none;
   }
 
   #home {
@@ -106,7 +114,6 @@ img {
   .menu ol {
     text-align: center;
     line-height: 30px;
-    border-right: none;
   }
 
   .menu li {
