@@ -11,9 +11,9 @@ a {
 }
 
 ol {
-  list-style: none;
   padding: 0;
   margin: 0;
+  list-style: none;
 }
 
 #main {
@@ -24,6 +24,12 @@ ol {
   text-align: center;
   font-size: 50px;
   height: auto;
+}
+
+#main ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 #main li {
