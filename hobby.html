@@ -1,26 +1,23 @@
-<!DOCTYPE>
+<?php 
+$date = date("YmdHis");
+?>
+<!DOCTYPE >
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>HOBBY</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/index.css?v=<?php echo $date?>" />
   </head>
   <body>
     <h1>MY HOBBY</h1>
     <div id="menu">
-      <ol>
-        <li><a href="kimeunjin.html">KimEunJin</a></li>
-        <li><a href="like.html">Like</a></li>
-        <li><a href="hate.html">Hate</a></li>
-        <li><a href="hobby.html">Hobby</a></li>
-        <li><a href="blah.html">Blah,Blah</a></li>
-      </ol>
-    <div id="text2">
-      중국 드라마 보기<br>
-      넷플릭스 몰아보기<br>
-      강아지 수제간식 만들기<br>
+      <?php include "menu.html"; ?>
+      <div id="home"><a href="./index.html">Home</a></div>
+      <div id="wrapper">
+        중국 드라마 보기<br />
+        넷플릭스 몰아보기<br />
+        강아지 수제간식 만들기<br />
+      </div>
     </div>
-  </div>
-  <div id="re"><a href="index.html">Return</a></div>
   </body>
 </html>
