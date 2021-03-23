@@ -1,20 +1,25 @@
-<?php 
-$date = date("YmdHis");
-?>
 <!DOCTYPE >
 <html>
   <head>
     <meta charset="utf-8" />
     <title>KIMEUNJIN</title>
-    <link rel="stylesheet" href="./css/index.css?v=<?php echo $date?>" />
+    <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
     <h1>PERSONAL INFORMATION</h1>
-    <div id="menu">
-      <?php include "menu.html"; ?>
-      <div id="home"><a href="./index.html">Home</a></div>
+    <div class="grid">
+      <div class="menu">
+        <ol>
+          <li><a href="./kimeunjin.html">Kim EunJin</a></li>
+          <li><a href="./like.html">Like</a></li>
+          <li><a href="./hate.html">Hate</a></li>
+          <li><a href="./hobby.html">Hobby</a></li>
+          <li><a href="./blah.html">Blah,Blah</a></li>
+        </ol>
+        <div id="home"><a href="./index.html">Home</a></div>
+      </div>
       <div id="wrapper">
-        <img src="./image/me.jpg" width="25%" />
+        <img src="./image/me.jpg" width="30%" />
         NAME : KimEunJin<br />
         PHONE : 010 - 7200 - 6011<br />
         EMAIL : eunjin9639@gmail.com

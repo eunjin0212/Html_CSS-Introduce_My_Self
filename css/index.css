@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@800&display=swap');
+
 body {
   margin: 10px;
+  font-family: 'Inconsolata', monospace;
 }
 
 a {
@@ -8,34 +11,55 @@ a {
 }
 
 ol {
-  border-right: 1px solid gray;
-  line-height: 300%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-.menu,
 #menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 50px;
+  height: auto;
+}
+
+#menu li {
+  height: 70px;
+  line-height: 70px;
+}
+
+.grid {
   display: grid;
   grid-template-columns: 250px 1fr;
 }
 
-.menu ol,
-#menu ol {
-  font-family: bold, Consolas;
-  font-size: 25px;
+.menu ol {
+  border-right: 1px solid gray;
+  font-size: 35px;
   margin: 0px;
   padding: 30px;
   color: pink;
-  list-style: none;
+}
+
+.menu li {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.menu div {
+  font-size: 20px;
 }
 
 #wrapper {
   color: pink;
-  font-size: 20px;
+  font-size: 25px;
   padding-left: 10px;
   list-style: none;
-  display: grid;
+  line-height: 60px;
   text-align: center;
-  line-height: 50px;
 }
 
 a:hover {
