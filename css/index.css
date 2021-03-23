@@ -33,6 +33,7 @@ ol {
 }
 
 #main li {
+  list-style: none;
   height: 70px;
   line-height: 70px;
 }
